@@ -34,19 +34,60 @@
 
     <div class="row">
         <div class="col s3">
-            <div class="card">
-                <div class="card-image">
-                    <img src="http://materializecss.com/images/sample-1.jpg">
-                    <span class="card-title">Vingadores</span>
+            <div class="card hoverable">
+                <div class="card-image ">
+                    <img src="assets/img/vingadores.jpg">                    
                     <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">favorite_border</i></a>
                 </div>
                 <div class="card-content">
-                    <p><i class="material-icons amber-text">star</i>9</p>
-                    <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                    <span class="card-title">Vingadores</span>
+                    <p class="valign-wrapper"><i class="material-icons amber-text">star</i>9</p>
+                    <p>Após Thanos eliminar metade das criaturas vivas de todo o universo, os heróis sobreviventes precisam lidar com a dor da perda de amigos e seus entes.</p>
                 </div>
             </div>
         </div>
-    </div>
-    
+
+        <div class="col s3">
+            <div class="card hoverable">
+                <div class="card-image ">
+                    <img src="assets/img/mercenarios.jpg">                    
+                    <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">favorite_border</i></a>
+                </div>
+                <div class="card-content">
+                    <span class="card-title">Os Mercenários</span>
+                    <p class="valign-wrapper"><i class="material-icons amber-text">star</i>9</p>
+                    <p>Um grupo de mercenários, liderado por Barney Ross e composto de seus homens de confiança, aceita uma missão que parece ser rotineira.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col s3">
+            <div class="card hoverable">
+                <div class="card-image ">
+                    <img src="assets/img/rocky.jpg">                    
+                    <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">favorite_border</i></a>
+                </div>
+                <div class="card-content">
+                    <span class="card-title">Rocky</span>
+                    <p class="valign-wrapper"><i class="material-icons amber-text">star</i>9</p>
+                    <p>Rocky Balboa, um pequeno boxeador da classe trabalhadora da Filadélfia, é arbitrariamente escolhido para lutar contra o campeão dos pesos pesados.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col s3">
+            <div class="card hoverable">
+                <div class="card-image ">
+                    <img src="assets/img/dragao-branco.jpg">                    
+                    <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">favorite_border</i></a>
+                </div>
+                <div class="card-content">
+                    <span class="card-title">O grande dragão branco</span>
+                    <p class="valign-wrapper"><i class="material-icons amber-text">star</i>9</p>
+                    <p>O soldado americano Frank Dux vai a Hong Kong para ser aceito no Kumite, uma competição de artes marciais altamente secreta e extremamente violenta.</p>
+                </div>
+            </div>
+        </div>
+    </div>    
 </body>
 </html>
