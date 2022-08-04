@@ -37,11 +37,29 @@
             <div class="card">
                 <div class="card-content">
                     <span class="card-title center">CADASTRAR FILME</span>
-                    <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                    
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input type="text" id="titulo" class="validate" require>
+                            <label for="titulo">Título do Filme</label>
+                        </div>
+                    </div>    
+
+                    <div class="row">
+                        <form class="col s12">
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <textarea id="sinopse" class="materialize-textarea"></textarea>
+                                    <label for="sinopse">Sinopse</label>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
                 </div>
                 <div class="card-action">
-                    <a class="btn" href="galeria.php">Cancelar</a>
-                    <a href="#" class="waves-effect waves-light btn">Cadastrar</a>
+                    <a class="btn waves-effect waves-light grey" href="galeria.php">Cancelar</a>
+                    <a href="#" class="waves-effect waves-light btn light-blue darken-4">Cadastrar</a>
                 </div>
             </div>
         </div>
