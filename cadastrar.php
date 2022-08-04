@@ -37,14 +37,15 @@
             <div class="card">
                 <div class="card-content">
                     <span class="card-title center">CADASTRAR FILME</span>
-                    
+                    <!-- FORMULÁRIO -->
+                    <!-- input título -->
                     <div class="row">
                         <div class="input-field col s12">
                             <input type="text" id="titulo" class="validate" require>
                             <label for="titulo">Título do Filme</label>
                         </div>
                     </div>    
-
+                    <!-- text area -->
                     <div class="row">
                         <form class="col s12">
                             <div class="row">
@@ -55,7 +56,24 @@
                             </div>
                         </form>
                     </div>
-
+                    <!-- input nota -->
+                    <div class="row">
+                        <div class="input-field col s4">
+                            <input type="number" id="nota"step=".1" min="0" max="10" class="validate" require>
+                            <label for="nota">Nota</label>
+                        </div>
+                    </div>
+                    <!-- input capa do filme -->
+                    <div class="file-field input-field">
+                        <div class="btn light-blue">
+                            <span>Capa</span>
+                            <input type="file">
+                        </div>
+                        <div class="file-path-wrapper">
+                            <input class="file-path validate" type="text">
+                        </div>
+                     </div>   
+                    <!-- FIM FORMULÁRIO -->
                 </div>
                 <div class="card-action">
                     <a class="btn waves-effect waves-light grey" href="galeria.php">Cancelar</a>
