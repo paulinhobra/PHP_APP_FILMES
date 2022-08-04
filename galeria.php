@@ -33,9 +33,9 @@
     </nav>
 
     <div class="row">
-        <div class="col s3">
+        <div class="col s3 ">
             <div class="card hoverable">
-                <div class="card-image ">
+                <div class="card-image">
                     <img src="assets/img/vingadores.jpg">                    
                     <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">favorite_border</i></a>
                 </div>
