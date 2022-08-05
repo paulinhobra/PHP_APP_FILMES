@@ -1,3 +1,7 @@
 body{
     background-color: #e5e5e5;
 }
+
+.nav-header h1{
+    text-shadow: 2px 2px 8px #000;
+}
